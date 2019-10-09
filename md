@@ -66,7 +66,7 @@ $ ansible-playbook init.yml --vault-password-file=.ansible_vault_pass
 
 2) tbo_serverプレイブックを実行する
 
-```
+``` 
 $ cd tbo_server
 $ ansible-playbook tbo_server.yml --vault-password-file=.ansible_vault_pass
 ```
